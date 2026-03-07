@@ -418,4 +418,64 @@ button.warning:hover:not(:disabled) {
     margin-top: 10px;
     padding-top: 10px;
     border-top: 1px dashed #dee2e6;
+
+}
+.site-footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px 15px 0 0;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-text {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.footer-initials {
+    font-weight: bold;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 20px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .footer-text {
+        font-size: 12px;
+    }
+    
+    .footer-initials {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: calc(100vh - 100px); 
 }
