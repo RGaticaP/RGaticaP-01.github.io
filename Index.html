@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector de Preguntas - Opción Múltiple</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Librerías para generar PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Selector de Preguntas - Opción Múltiple</h1>
+
+        <!-- Tarjeta de ingreso de preguntas -->
+        <div class="card">
+            <h2>📝 1. Ingresa tus preguntas</h2>
+            <p class="input-info">Escribe cada pregunta con su formato:</p>
+            <div class="format-example">
+                <strong>Formato:</strong><br>
+                1. Texto de la pregunta<br>
+                a) Opción A<br>
+                b) Opción B<br>
+                c) Opción C<br>
+                d) Opción D<br>
+                Respuesta correcta: X<br>
+            </div>
+            
+            <textarea id="preguntasInput" placeholder="Pega tus preguntas aquí..."></textarea>
+            
+            <div class="button-group">
+                <button onclick="procesarPreguntas()" class="success">
+                    📥 Procesar Preguntas
+                </button>
+                <button onclick="limpiarTodo()" class="danger">
+                    🗑️ Limpiar Todo
+                </button>
+            </div>
+        </div>
+
+        <!-- Tarjeta de estadísticas -->
+        <div id="statsCard" class="card" style="display: none;">
+            <h2>📊 2. Estadísticas del Banco</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number" id="totalBanco">0</div>
+                    <div class="label">Total Preguntas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" id="preguntasDisponibles">0</div>
+                    <div class="label">Disponibles</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" id="gruposRestantes">0</div>
+                    <div class="label">Grupos Restantes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" id="gruposCompletados">0</div>
+                    <div class="label">Grupos Completados</div>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar" style="width: 0%;"></div>
+            </div>
+
+            <div class="button-group">
+                <button class="success" onclick="generarNuevoGrupo()" id="generarBtn">
+                    🎲 Generar Nuevo Grupo de 15
+                </button>
+                <button class="warning" onclick="reiniciarGrupos()" id="reiniciarBtn">
+                    🔄 Reiniciar Banco
+                </button>
+            </div>
+
+            <!-- Grupo actual -->
+            <div id="grupoActualContainer" class="questions-container" style="display: none;">
+                <h3>🎯 Grupo Actual</h3>
+                <div class="current-group" id="grupoActualCards">
+                </div>
+            </div>
+
+            <!-- Historial de grupos -->
+            <div id="historialGrupos" class="groups-history">
+                <h3>📜 Historial de Grupos</h3>
+                <div id="gruposList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
