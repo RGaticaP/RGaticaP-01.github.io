@@ -1,0 +1,145 @@
+2026-03-21 21:42:28
+DATOS RECIBIDOS:
+Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿Cuál es la capital de Francia?
+                    [opciones] => Array
+                        (
+                            [0] => a) Madrid
+                            [1] => b) París
+                            [2] => c) Roma
+                            [3] => d) Berlín
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+    [tipoExamen] => Ordinario 1
+    [carrera] => Administración Industrial
+    [cantidadPreguntas] => 1
+)
+
+
+2026-03-21 21:43:29
+DATOS RECIBIDOS:
+Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿Cuál es la capital de Francia?
+                    [opciones] => Array
+                        (
+                            [0] => a) Madrid
+                            [1] => b) París
+                            [2] => c) Roma
+                            [3] => d) Berlín
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+    [tipoExamen] => Ordinario 1
+    [carrera] => Administración Industrial
+    [cantidadPreguntas] => 1
+)
+
+
+2026-03-21 21:44:50
+DATOS RECIBIDOS:
+Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿Cuál es la capital de Francia?
+                    [opciones] => Array
+                        (
+                            [0] => a) Madrid
+                            [1] => b) París
+                            [2] => c) Roma
+                            [3] => d) Berlín
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+    [tipoExamen] => Ordinario 1
+    [carrera] => Administración Industrial
+    [cantidadPreguntas] => 1
+)
+
+
+2026-03-21 21:45:38
+DATOS RECIBIDOS:
+Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿Cuál es la capital de Francia?
+                    [opciones] => Array
+                        (
+                            [0] => a) Madrid
+                            [1] => b) París
+                            [2] => c) Roma
+                            [3] => d) Berlín
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+    [tipoExamen] => Ordinario 1
+    [carrera] => Administración Industrial
+    [cantidadPreguntas] => 1
+)
+
+
+2026-03-21 21:49:23
+DATOS RECIBIDOS:
+Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿Cuál es la capital de Francia?
+                    [opciones] => Array
+                        (
+                            [0] => a) Madrid
+                            [1] => b) París
+                            [2] => c) Roma
+                            [3] => d) Berlín
+                        )
+
+                    [correcta] => B
+                )
+
+        )
+
+    [numeroGrupo] => 1
+    [tipoExamen] => Ordinario 1
+    [carrera] => Administración Industrial
+    [cantidadPreguntas] => 1
+)
+
+

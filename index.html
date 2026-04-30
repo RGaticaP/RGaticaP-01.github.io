@@ -27,8 +27,40 @@
                 Respuesta correcta: X<br>
             </div>
             
+            <!-- Selector de carrera -->
+            <div class="selector-container">
+                <label for="carrera" style="font-weight: bold; margin-right: 10px;">🎓 Carrera:</label>
+                <select id="carrera" style="padding: 8px; border-radius: 5px; border: 2px solid #667eea; font-size: 14px;">
+                    <option value="Administración Industrial">Administración Industrial</option>
+                    <option value="Ciencias de la Informática">Ciencias de la Informática</option>
+                    <option value="Ingeniería Industrial">Ingeniería Industrial</option>
+                    <option value="Ingeniería en Informática">Ingeniería en Informática</option>
+                    <option value="Ingeniería en Transporte">Ingeniería en Transporte</option>
+                    <option value="Ingeniería Ferroviaria">Ingeniería Ferroviaria</option>
+                </select>
+            </div>
+
             <textarea id="preguntasInput" placeholder="Pega tus preguntas aquí..."></textarea>
-            
+
+            <!-- Selector de tipo de examen -->
+            <div class="selector-container" style="margin: 20px 0;">
+                <label for="tipoExamen" style="font-weight: bold; margin-right: 10px;">Tipo de Examen:</label>
+                <select id="tipoExamen" style="padding: 8px; border-radius: 5px; border: 2px solid #667eea; font-size: 14px;">
+                    <option value="Ordinario 1">📝 Ordinario 1</option>
+                    <option value="Ordinario 2">📝 Ordinario 2</option>
+                    <option value="Ordinario 3">📝 Ordinario 3</option>
+                    <option value="Extraordinario">📚 Extraordinario</option>
+                    <option value="1er E.T.S.">⏰ 1er E.T.S.</option>
+                    <option value="2do E.T.S.">⏰ 2do E.T.S.</option>
+                </select>
+            </div>
+
+            <!-- Selector de cantidad de preguntas -->
+            <div class="selector-container" style="margin: 20px 0;">
+                <label for="cantidadPreguntas" style="font-weight: bold; margin-right: 10px;">🔢 Cantidad de preguntas:</label>
+                <input type="number" id="cantidadPreguntas" min="1" max="100" value="15" style="padding: 8px; border-radius: 5px; border: 2px solid #667eea; font-size: 14px; width: 80px;">
+            </div>
+
             <div class="button-group">
                 <button onclick="procesarPreguntas()" class="success">
                     📥 Procesar Preguntas
@@ -68,7 +100,7 @@
 
             <div class="button-group">
                 <button class="success" onclick="generarNuevoGrupo()" id="generarBtn">
-                    🎲 Generar Nuevo Grupo de 15
+                    🎲 Generar Nuevo Grupo
                 </button>
                 <button class="warning" onclick="reiniciarGrupos()" id="reiniciarBtn">
                     🔄 Reiniciar Banco
@@ -78,8 +110,7 @@
             <!-- Grupo actual -->
             <div id="grupoActualContainer" class="questions-container" style="display: none;">
                 <h3>🎯 Grupo Actual</h3>
-                <div class="current-group" id="grupoActualCards">
-                </div>
+                <div class="current-group" id="grupoActualCards"></div>
             </div>
 
             <!-- Historial de grupos -->
@@ -89,17 +120,14 @@
             </div>
         </div>
     </div>
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="footer-text">
-                © 2025 - Instituto Politécnico Nacional. Todos los derechos reservados.
-            </div>
-            <div class="footer-initials">
-                GPVRA
-            </div>
-        </div>
-    </footer>
+
     <script src="script.js"></script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registrado', reg))
+      .catch(err => console.error('Error al registrar SW', err));
+  }
+</script>
 </body>
 </html>
-

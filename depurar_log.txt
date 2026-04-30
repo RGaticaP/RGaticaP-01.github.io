@@ -1,0 +1,1322 @@
+=== 2026-03-20 04:01:32 ===
+INPUT: {"grupo":[{"texto":"El modelo de información o de datos dentro de una organización sirve fundamentalmente para:","opciones":["a) Describir los pasos secuenciales que sigue un cliente al comprar un producto","b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores","c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan","d) Indicar la lista de recursos físicos y tecnológicos disponibles"],"correcta":"A"},{"texto":"¿Cuál es el propósito central de la Fase H (Gestión del Cambio de Arquitectura) en TOGAF?","opciones":["a) Mantener la adherencia estricta a los modelos arquitectónicos originales","b) Gestionar excepciones a los estándares tecnológicos establecidos","c) Verificar beneficios, monitorear el rendimiento y gestionar cambios en los supuestos arquitectónicos","d) Crear nuevos roadmaps de capacidad tecnológica para los próximos 5 años"],"correcta":"A"},{"texto":"¿Qué es ITIL y cuál es su propósito principal?","opciones":["a) Una norma internacional que certifica la seguridad de la información (ISO 27001)","b) Un software de monitoreo de redes utilizado en empresas digitales","c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI","d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)"],"correcta":"A"},{"texto":"Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?","opciones":["a) El alto consumo energético de los centros de datos","b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes","c) La dificultad técnica para integrar la IA con sistemas legados","d) La necesidad de contratar personal altamente especializado"],"correcta":"A"},{"texto":"¿Cuál es el objetivo principal de la Arquitectura de Sistemas de Información (ISA) en TOGAF?","opciones":["a) Optimizar exclusivamente el rendimiento técnico de los servidores","b) Garantizar la seguridad perimetral de la información","c) Alinear la estructura de componentes de datos y aplicaciones con las necesidades del negocio","d) Reducir los costos de operación tecnológica por debajo del promedio del mercado"],"correcta":"A"},{"texto":"En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?","opciones":["a) Fase A (Visión de Arquitectura)","b) Fase B (Arquitectura de Negocio)","c) Fase Preliminar","d) Fase H (Gestión del Cambio)"],"correcta":"A"},{"texto":"¿Qué describe correctamente la norma ISO/IEC 20000?","opciones":["a) Un marco de buenas prácticas para la gestión de proyectos (similar a PMBOK)","b) Un estándar internacional certificable que especifica los requisitos para un Sistema de Gestión de Servicios de TI (SGSI)","c) Un modelo de madurez para evaluar la capacidad de los procesos de desarrollo de software","d) Un conjunto de publicaciones que detallan las mejores prácticas para la gestión de servicios de TI (como ITIL)"],"correcta":"A"},{"texto":"El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?","opciones":["a) Invertir en energías limpias para las instalaciones de la empresa","b) Tener una política de puertas abiertas para la dirección interna","c) Ser transparentes con las finanzas de la empresa ante los accionistas","d) Implementar programas de alfabetización digital en comunidades con recursos limitados"],"correcta":"A"},{"texto":"¿Cuál es el propósito principal de la gestión de beneficios en TI?","opciones":["a) Asegurar que cada inversión en TI se entregue en la fecha y presupuesto planeados (Gestión de proyectos)","b) Controlar únicamente el presupuesto de hardware y software para reducir gastos","c) Reemplazar por completo a la gobernanza de TI en la toma de decisiones estratégicas","d) Asegurar que cada inversión en TI genere beneficios reales, medibles y alineados con el negocio"],"correcta":"A"},{"texto":"¿Qué representa el \"Repository\" (Repositorio de Arquitectura) en TOGAF?","opciones":["a) Un software específico para modelar diagramas de arquitectura","b) Un almacén físico de servidores y equipamiento de red","c) Un sistema para gestionar las contraseñas de los arquitectos","d) Un almacén lógico que contiene los entregables, artefactos y el metmodelo de la arquitectura"],"correcta":"A"},{"texto":"¿Qué describe principalmente un modelo tecnológico en el contexto de TOGAF?","opciones":["a) Las tendencias de moda en dispositivos electrónicos de consumo","b) La estructura, organización y relaciones de los componentes tecnológicos en un sistema","c) Únicamente la lista de componentes físicos como hardware y cables","d) El número de usuarios simultáneos que soporta una aplicación"],"correcta":"A"},{"texto":"Según el estándar TOGAF, ¿cuáles son los cuatro dominios de arquitectura que conforman la base de una Arquitectura Empresarial?","opciones":["a) Estrategia, Infraestructura, Software y Hardware","b) Negocio, Datos, Aplicaciones y Tecnología","c) Procesos, Información, Servicios y Redes","d) Visión, Información, Sistemas y Seguridad"],"correcta":"A"},{"texto":"¿Qué práctica alinea mejor el portafolio de aplicaciones con los objetivos estratégicos de una organización?","opciones":["a) Sustituir todas las aplicaciones heredadas por soluciones en la nube","b) Mapear cada aplicación con el proceso de negocio que soporta y el objetivo estratégico asociado","c) Implementar redundancia en todas las aplicaciones críticas para cubrir posibles fallos","d) Automatizar la comunicación entre aplicaciones mediante APIs sin importar su propósito"],"correcta":"A"},{"texto":"¿Cuál es el objetivo principal del modelo CMMI-SVC (CMMI for Services)?","opciones":["a) Certificar la calidad del hardware utilizado en los centros de datos","b) Ayudar a las organizaciones a mejorar el rendimiento de sus procesos de prestación de servicios","c) Definir un lenguaje de programación estándar para aplicaciones de servicios","d) Establecer los requisitos legales para prestar servicios en la nube"],"correcta":"A"},{"texto":"¿Cuál es el propósito principal de aplicar mejores prácticas en la gestión de servicios de TI?","opciones":["a) Reducir drásticamente el número de empleados en el área de TI","b) Evitar el uso de marcos internacionales para simplificar la gestión","c) Asegurar la calidad, eficiencia y valor en los servicios de TI entregados al negocio","d) Incrementar únicamente la innovación tecnológica, sin importar los costos"],"correcta":"A"}],"numeroGrupo":1}
+DECODIFICADO: Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => El modelo de información o de datos dentro de una organización sirve fundamentalmente para:
+                    [opciones] => Array
+                        (
+                            [0] => a) Describir los pasos secuenciales que sigue un cliente al comprar un producto
+                            [1] => b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores
+                            [2] => c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan
+                            [3] => d) Indicar la lista de recursos físicos y tecnológicos disponibles
+                        )
+
+                    [correcta] => A
+                )
+
+            [1] => Array
+                (
+                    [texto] => ¿Cuál es el propósito central de la Fase H (Gestión del Cambio de Arquitectura) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Mantener la adherencia estricta a los modelos arquitectónicos originales
+                            [1] => b) Gestionar excepciones a los estándares tecnológicos establecidos
+                            [2] => c) Verificar beneficios, monitorear el rendimiento y gestionar cambios en los supuestos arquitectónicos
+                            [3] => d) Crear nuevos roadmaps de capacidad tecnológica para los próximos 5 años
+                        )
+
+                    [correcta] => A
+                )
+
+            [2] => Array
+                (
+                    [texto] => ¿Qué es ITIL y cuál es su propósito principal?
+                    [opciones] => Array
+                        (
+                            [0] => a) Una norma internacional que certifica la seguridad de la información (ISO 27001)
+                            [1] => b) Un software de monitoreo de redes utilizado en empresas digitales
+                            [2] => c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI
+                            [3] => d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)
+                        )
+
+                    [correcta] => A
+                )
+
+            [3] => Array
+                (
+                    [texto] => Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?
+                    [opciones] => Array
+                        (
+                            [0] => a) El alto consumo energético de los centros de datos
+                            [1] => b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes
+                            [2] => c) La dificultad técnica para integrar la IA con sistemas legados
+                            [3] => d) La necesidad de contratar personal altamente especializado
+                        )
+
+                    [correcta] => A
+                )
+
+            [4] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal de la Arquitectura de Sistemas de Información (ISA) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Optimizar exclusivamente el rendimiento técnico de los servidores
+                            [1] => b) Garantizar la seguridad perimetral de la información
+                            [2] => c) Alinear la estructura de componentes de datos y aplicaciones con las necesidades del negocio
+                            [3] => d) Reducir los costos de operación tecnológica por debajo del promedio del mercado
+                        )
+
+                    [correcta] => A
+                )
+
+            [5] => Array
+                (
+                    [texto] => En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?
+                    [opciones] => Array
+                        (
+                            [0] => a) Fase A (Visión de Arquitectura)
+                            [1] => b) Fase B (Arquitectura de Negocio)
+                            [2] => c) Fase Preliminar
+                            [3] => d) Fase H (Gestión del Cambio)
+                        )
+
+                    [correcta] => A
+                )
+
+            [6] => Array
+                (
+                    [texto] => ¿Qué describe correctamente la norma ISO/IEC 20000?
+                    [opciones] => Array
+                        (
+                            [0] => a) Un marco de buenas prácticas para la gestión de proyectos (similar a PMBOK)
+                            [1] => b) Un estándar internacional certificable que especifica los requisitos para un Sistema de Gestión de Servicios de TI (SGSI)
+                            [2] => c) Un modelo de madurez para evaluar la capacidad de los procesos de desarrollo de software
+                            [3] => d) Un conjunto de publicaciones que detallan las mejores prácticas para la gestión de servicios de TI (como ITIL)
+                        )
+
+                    [correcta] => A
+                )
+
+            [7] => Array
+                (
+                    [texto] => El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?
+                    [opciones] => Array
+                        (
+                            [0] => a) Invertir en energías limpias para las instalaciones de la empresa
+                            [1] => b) Tener una política de puertas abiertas para la dirección interna
+                            [2] => c) Ser transparentes con las finanzas de la empresa ante los accionistas
+                            [3] => d) Implementar programas de alfabetización digital en comunidades con recursos limitados
+                        )
+
+                    [correcta] => A
+                )
+
+            [8] => Array
+                (
+                    [texto] => ¿Cuál es el propósito principal de la gestión de beneficios en TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Asegurar que cada inversión en TI se entregue en la fecha y presupuesto planeados (Gestión de proyectos)
+                            [1] => b) Controlar únicamente el presupuesto de hardware y software para reducir gastos
+                            [2] => c) Reemplazar por completo a la gobernanza de TI en la toma de decisiones estratégicas
+                            [3] => d) Asegurar que cada inversión en TI genere beneficios reales, medibles y alineados con el negocio
+                        )
+
+                    [correcta] => A
+                )
+
+            [9] => Array
+                (
+                    [texto] => ¿Qué representa el "Repository" (Repositorio de Arquitectura) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Un software específico para modelar diagramas de arquitectura
+                            [1] => b) Un almacén físico de servidores y equipamiento de red
+                            [2] => c) Un sistema para gestionar las contraseñas de los arquitectos
+                            [3] => d) Un almacén lógico que contiene los entregables, artefactos y el metmodelo de la arquitectura
+                        )
+
+                    [correcta] => A
+                )
+
+            [10] => Array
+                (
+                    [texto] => ¿Qué describe principalmente un modelo tecnológico en el contexto de TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Las tendencias de moda en dispositivos electrónicos de consumo
+                            [1] => b) La estructura, organización y relaciones de los componentes tecnológicos en un sistema
+                            [2] => c) Únicamente la lista de componentes físicos como hardware y cables
+                            [3] => d) El número de usuarios simultáneos que soporta una aplicación
+                        )
+
+                    [correcta] => A
+                )
+
+            [11] => Array
+                (
+                    [texto] => Según el estándar TOGAF, ¿cuáles son los cuatro dominios de arquitectura que conforman la base de una Arquitectura Empresarial?
+                    [opciones] => Array
+                        (
+                            [0] => a) Estrategia, Infraestructura, Software y Hardware
+                            [1] => b) Negocio, Datos, Aplicaciones y Tecnología
+                            [2] => c) Procesos, Información, Servicios y Redes
+                            [3] => d) Visión, Información, Sistemas y Seguridad
+                        )
+
+                    [correcta] => A
+                )
+
+            [12] => Array
+                (
+                    [texto] => ¿Qué práctica alinea mejor el portafolio de aplicaciones con los objetivos estratégicos de una organización?
+                    [opciones] => Array
+                        (
+                            [0] => a) Sustituir todas las aplicaciones heredadas por soluciones en la nube
+                            [1] => b) Mapear cada aplicación con el proceso de negocio que soporta y el objetivo estratégico asociado
+                            [2] => c) Implementar redundancia en todas las aplicaciones críticas para cubrir posibles fallos
+                            [3] => d) Automatizar la comunicación entre aplicaciones mediante APIs sin importar su propósito
+                        )
+
+                    [correcta] => A
+                )
+
+            [13] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal del modelo CMMI-SVC (CMMI for Services)?
+                    [opciones] => Array
+                        (
+                            [0] => a) Certificar la calidad del hardware utilizado en los centros de datos
+                            [1] => b) Ayudar a las organizaciones a mejorar el rendimiento de sus procesos de prestación de servicios
+                            [2] => c) Definir un lenguaje de programación estándar para aplicaciones de servicios
+                            [3] => d) Establecer los requisitos legales para prestar servicios en la nube
+                        )
+
+                    [correcta] => A
+                )
+
+            [14] => Array
+                (
+                    [texto] => ¿Cuál es el propósito principal de aplicar mejores prácticas en la gestión de servicios de TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reducir drásticamente el número de empleados en el área de TI
+                            [1] => b) Evitar el uso de marcos internacionales para simplificar la gestión
+                            [2] => c) Asegurar la calidad, eficiencia y valor en los servicios de TI entregados al negocio
+                            [3] => d) Incrementar únicamente la innovación tecnológica, sin importar los costos
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+)
+
+
+=== 2026-03-20 04:06:01 ===
+INPUT: {"grupo":[{"texto":"¿La Fase E (Oportunidades y Soluciones) de TOGAF prioriza los detalles técnicos sobre la viabilidad de la transición?","opciones":["a) Verdadero","b) Falso"],"correcta":"A"},{"texto":"¿Cuál es el propósito central de la Fase H (Gestión del Cambio de Arquitectura) en TOGAF?","opciones":["a) Mantener la adherencia estricta a los modelos arquitectónicos originales","b) Gestionar excepciones a los estándares tecnológicos establecidos","c) Verificar beneficios, monitorear el rendimiento y gestionar cambios en los supuestos arquitectónicos","d) Crear nuevos roadmaps de capacidad tecnológica para los próximos 5 años"],"correcta":"A"},{"texto":"¿Cuál es el propósito principal de aplicar mejores prácticas en la gestión de servicios de TI?","opciones":["a) Reducir drásticamente el número de empleados en el área de TI","b) Evitar el uso de marcos internacionales para simplificar la gestión","c) Asegurar la calidad, eficiencia y valor en los servicios de TI entregados al negocio","d) Incrementar únicamente la innovación tecnológica, sin importar los costos"],"correcta":"A"},{"texto":"El modelo de información o de datos dentro de una organización sirve fundamentalmente para:","opciones":["a) Describir los pasos secuenciales que sigue un cliente al comprar un producto","b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores","c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan","d) Indicar la lista de recursos físicos y tecnológicos disponibles"],"correcta":"A"},{"texto":"La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?","opciones":["a) Reduce significativamente los costos de fabricación de la tecnología","b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos","c) Aumenta la innovación en procesos de reciclaje electrónico","d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales"],"correcta":"A"},{"texto":"¿Qué es ITIL y cuál es su propósito principal?","opciones":["a) Una norma internacional que certifica la seguridad de la información (ISO 27001)","b) Un software de monitoreo de redes utilizado en empresas digitales","c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI","d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)"],"correcta":"A"},{"texto":"El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?","opciones":["a) Invertir en energías limpias para las instalaciones de la empresa","b) Tener una política de puertas abiertas para la dirección interna","c) Ser transparentes con las finanzas de la empresa ante los accionistas","d) Implementar programas de alfabetización digital en comunidades con recursos limitados"],"correcta":"A"},{"texto":"En la gestión del portafolio de aplicaciones, ¿qué riesgo aparece cuando no se controla adecuadamente la interoperabilidad entre sistemas?","opciones":["a) Se limita la capacidad de integrar procesos de negocio que dependen de múltiples aplicaciones","b) Se elimina automáticamente la redundancia de aplicaciones sin planificarlo","c) Se asegura la escalabilidad pero con mayores costos operativos","d) Se optimiza el portafolio de aplicaciones de manera involuntaria"],"correcta":"A"},{"texto":"¿Cuál de los siguientes elementos forma parte clave de la arquitectura de negocio?","opciones":["a) Hardware, servidores, cableado estructurado y centros de datos","b) Únicamente los diagramas de casos de uso del software","c) Procesos, funciones organizacionales, objetivos estratégicos y capacidades de negocio","d) Los manuales de usuario de los sistemas y aplicaciones"],"correcta":"A"},{"texto":"Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?","opciones":["a) El alto consumo energético de los centros de datos","b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes","c) La dificultad técnica para integrar la IA con sistemas legados","d) La necesidad de contratar personal altamente especializado"],"correcta":"A"},{"texto":"En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?","opciones":["a) Fase A (Visión de Arquitectura)","b) Fase B (Arquitectura de Negocio)","c) Fase Preliminar","d) Fase H (Gestión del Cambio)"],"correcta":"A"},{"texto":"¿Cuál es el propósito principal de la gestión de beneficios en TI?","opciones":["a) Asegurar que cada inversión en TI se entregue en la fecha y presupuesto planeados (Gestión de proyectos)","b) Controlar únicamente el presupuesto de hardware y software para reducir gastos","c) Reemplazar por completo a la gobernanza de TI en la toma de decisiones estratégicas","d) Asegurar que cada inversión en TI genere beneficios reales, medibles y alineados con el negocio"],"correcta":"A"},{"texto":"¿Qué describe principalmente un modelo tecnológico en el contexto de TOGAF?","opciones":["a) Las tendencias de moda en dispositivos electrónicos de consumo","b) La estructura, organización y relaciones de los componentes tecnológicos en un sistema","c) Únicamente la lista de componentes físicos como hardware y cables","d) El número de usuarios simultáneos que soporta una aplicación"],"correcta":"A"},{"texto":"¿Qué práctica alinea mejor el portafolio de aplicaciones con los objetivos estratégicos de una organización?","opciones":["a) Sustituir todas las aplicaciones heredadas por soluciones en la nube","b) Mapear cada aplicación con el proceso de negocio que soporta y el objetivo estratégico asociado","c) Implementar redundancia en todas las aplicaciones críticas para cubrir posibles fallos","d) Automatizar la comunicación entre aplicaciones mediante APIs sin importar su propósito"],"correcta":"A"},{"texto":"Según el estándar TOGAF, ¿cuáles son los cuatro dominios de arquitectura que conforman la base de una Arquitectura Empresarial?","opciones":["a) Estrategia, Infraestructura, Software y Hardware","b) Negocio, Datos, Aplicaciones y Tecnología","c) Procesos, Información, Servicios y Redes","d) Visión, Información, Sistemas y Seguridad"],"correcta":"A"}],"numeroGrupo":1}
+DECODIFICADO: Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿La Fase E (Oportunidades y Soluciones) de TOGAF prioriza los detalles técnicos sobre la viabilidad de la transición?
+                    [opciones] => Array
+                        (
+                            [0] => a) Verdadero
+                            [1] => b) Falso
+                        )
+
+                    [correcta] => A
+                )
+
+            [1] => Array
+                (
+                    [texto] => ¿Cuál es el propósito central de la Fase H (Gestión del Cambio de Arquitectura) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Mantener la adherencia estricta a los modelos arquitectónicos originales
+                            [1] => b) Gestionar excepciones a los estándares tecnológicos establecidos
+                            [2] => c) Verificar beneficios, monitorear el rendimiento y gestionar cambios en los supuestos arquitectónicos
+                            [3] => d) Crear nuevos roadmaps de capacidad tecnológica para los próximos 5 años
+                        )
+
+                    [correcta] => A
+                )
+
+            [2] => Array
+                (
+                    [texto] => ¿Cuál es el propósito principal de aplicar mejores prácticas en la gestión de servicios de TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reducir drásticamente el número de empleados en el área de TI
+                            [1] => b) Evitar el uso de marcos internacionales para simplificar la gestión
+                            [2] => c) Asegurar la calidad, eficiencia y valor en los servicios de TI entregados al negocio
+                            [3] => d) Incrementar únicamente la innovación tecnológica, sin importar los costos
+                        )
+
+                    [correcta] => A
+                )
+
+            [3] => Array
+                (
+                    [texto] => El modelo de información o de datos dentro de una organización sirve fundamentalmente para:
+                    [opciones] => Array
+                        (
+                            [0] => a) Describir los pasos secuenciales que sigue un cliente al comprar un producto
+                            [1] => b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores
+                            [2] => c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan
+                            [3] => d) Indicar la lista de recursos físicos y tecnológicos disponibles
+                        )
+
+                    [correcta] => A
+                )
+
+            [4] => Array
+                (
+                    [texto] => La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reduce significativamente los costos de fabricación de la tecnología
+                            [1] => b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos
+                            [2] => c) Aumenta la innovación en procesos de reciclaje electrónico
+                            [3] => d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales
+                        )
+
+                    [correcta] => A
+                )
+
+            [5] => Array
+                (
+                    [texto] => ¿Qué es ITIL y cuál es su propósito principal?
+                    [opciones] => Array
+                        (
+                            [0] => a) Una norma internacional que certifica la seguridad de la información (ISO 27001)
+                            [1] => b) Un software de monitoreo de redes utilizado en empresas digitales
+                            [2] => c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI
+                            [3] => d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)
+                        )
+
+                    [correcta] => A
+                )
+
+            [6] => Array
+                (
+                    [texto] => El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?
+                    [opciones] => Array
+                        (
+                            [0] => a) Invertir en energías limpias para las instalaciones de la empresa
+                            [1] => b) Tener una política de puertas abiertas para la dirección interna
+                            [2] => c) Ser transparentes con las finanzas de la empresa ante los accionistas
+                            [3] => d) Implementar programas de alfabetización digital en comunidades con recursos limitados
+                        )
+
+                    [correcta] => A
+                )
+
+            [7] => Array
+                (
+                    [texto] => En la gestión del portafolio de aplicaciones, ¿qué riesgo aparece cuando no se controla adecuadamente la interoperabilidad entre sistemas?
+                    [opciones] => Array
+                        (
+                            [0] => a) Se limita la capacidad de integrar procesos de negocio que dependen de múltiples aplicaciones
+                            [1] => b) Se elimina automáticamente la redundancia de aplicaciones sin planificarlo
+                            [2] => c) Se asegura la escalabilidad pero con mayores costos operativos
+                            [3] => d) Se optimiza el portafolio de aplicaciones de manera involuntaria
+                        )
+
+                    [correcta] => A
+                )
+
+            [8] => Array
+                (
+                    [texto] => ¿Cuál de los siguientes elementos forma parte clave de la arquitectura de negocio?
+                    [opciones] => Array
+                        (
+                            [0] => a) Hardware, servidores, cableado estructurado y centros de datos
+                            [1] => b) Únicamente los diagramas de casos de uso del software
+                            [2] => c) Procesos, funciones organizacionales, objetivos estratégicos y capacidades de negocio
+                            [3] => d) Los manuales de usuario de los sistemas y aplicaciones
+                        )
+
+                    [correcta] => A
+                )
+
+            [9] => Array
+                (
+                    [texto] => Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?
+                    [opciones] => Array
+                        (
+                            [0] => a) El alto consumo energético de los centros de datos
+                            [1] => b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes
+                            [2] => c) La dificultad técnica para integrar la IA con sistemas legados
+                            [3] => d) La necesidad de contratar personal altamente especializado
+                        )
+
+                    [correcta] => A
+                )
+
+            [10] => Array
+                (
+                    [texto] => En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?
+                    [opciones] => Array
+                        (
+                            [0] => a) Fase A (Visión de Arquitectura)
+                            [1] => b) Fase B (Arquitectura de Negocio)
+                            [2] => c) Fase Preliminar
+                            [3] => d) Fase H (Gestión del Cambio)
+                        )
+
+                    [correcta] => A
+                )
+
+            [11] => Array
+                (
+                    [texto] => ¿Cuál es el propósito principal de la gestión de beneficios en TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Asegurar que cada inversión en TI se entregue en la fecha y presupuesto planeados (Gestión de proyectos)
+                            [1] => b) Controlar únicamente el presupuesto de hardware y software para reducir gastos
+                            [2] => c) Reemplazar por completo a la gobernanza de TI en la toma de decisiones estratégicas
+                            [3] => d) Asegurar que cada inversión en TI genere beneficios reales, medibles y alineados con el negocio
+                        )
+
+                    [correcta] => A
+                )
+
+            [12] => Array
+                (
+                    [texto] => ¿Qué describe principalmente un modelo tecnológico en el contexto de TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Las tendencias de moda en dispositivos electrónicos de consumo
+                            [1] => b) La estructura, organización y relaciones de los componentes tecnológicos en un sistema
+                            [2] => c) Únicamente la lista de componentes físicos como hardware y cables
+                            [3] => d) El número de usuarios simultáneos que soporta una aplicación
+                        )
+
+                    [correcta] => A
+                )
+
+            [13] => Array
+                (
+                    [texto] => ¿Qué práctica alinea mejor el portafolio de aplicaciones con los objetivos estratégicos de una organización?
+                    [opciones] => Array
+                        (
+                            [0] => a) Sustituir todas las aplicaciones heredadas por soluciones en la nube
+                            [1] => b) Mapear cada aplicación con el proceso de negocio que soporta y el objetivo estratégico asociado
+                            [2] => c) Implementar redundancia en todas las aplicaciones críticas para cubrir posibles fallos
+                            [3] => d) Automatizar la comunicación entre aplicaciones mediante APIs sin importar su propósito
+                        )
+
+                    [correcta] => A
+                )
+
+            [14] => Array
+                (
+                    [texto] => Según el estándar TOGAF, ¿cuáles son los cuatro dominios de arquitectura que conforman la base de una Arquitectura Empresarial?
+                    [opciones] => Array
+                        (
+                            [0] => a) Estrategia, Infraestructura, Software y Hardware
+                            [1] => b) Negocio, Datos, Aplicaciones y Tecnología
+                            [2] => c) Procesos, Información, Servicios y Redes
+                            [3] => d) Visión, Información, Sistemas y Seguridad
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+)
+
+
+=== 2026-03-20 04:08:56 ===
+INPUT: {"grupo":[{"texto":"¿La Fase E (Oportunidades y Soluciones) de TOGAF prioriza los detalles técnicos sobre la viabilidad de la transición?","opciones":["a) Verdadero","b) Falso"],"correcta":"A"},{"texto":"¿Cuál es el propósito central de la Fase H (Gestión del Cambio de Arquitectura) en TOGAF?","opciones":["a) Mantener la adherencia estricta a los modelos arquitectónicos originales","b) Gestionar excepciones a los estándares tecnológicos establecidos","c) Verificar beneficios, monitorear el rendimiento y gestionar cambios en los supuestos arquitectónicos","d) Crear nuevos roadmaps de capacidad tecnológica para los próximos 5 años"],"correcta":"A"},{"texto":"¿Cuál es el propósito principal de aplicar mejores prácticas en la gestión de servicios de TI?","opciones":["a) Reducir drásticamente el número de empleados en el área de TI","b) Evitar el uso de marcos internacionales para simplificar la gestión","c) Asegurar la calidad, eficiencia y valor en los servicios de TI entregados al negocio","d) Incrementar únicamente la innovación tecnológica, sin importar los costos"],"correcta":"A"},{"texto":"El modelo de información o de datos dentro de una organización sirve fundamentalmente para:","opciones":["a) Describir los pasos secuenciales que sigue un cliente al comprar un producto","b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores","c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan","d) Indicar la lista de recursos físicos y tecnológicos disponibles"],"correcta":"A"},{"texto":"La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?","opciones":["a) Reduce significativamente los costos de fabricación de la tecnología","b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos","c) Aumenta la innovación en procesos de reciclaje electrónico","d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales"],"correcta":"A"},{"texto":"¿Qué es ITIL y cuál es su propósito principal?","opciones":["a) Una norma internacional que certifica la seguridad de la información (ISO 27001)","b) Un software de monitoreo de redes utilizado en empresas digitales","c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI","d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)"],"correcta":"A"},{"texto":"El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?","opciones":["a) Invertir en energías limpias para las instalaciones de la empresa","b) Tener una política de puertas abiertas para la dirección interna","c) Ser transparentes con las finanzas de la empresa ante los accionistas","d) Implementar programas de alfabetización digital en comunidades con recursos limitados"],"correcta":"A"},{"texto":"En la gestión del portafolio de aplicaciones, ¿qué riesgo aparece cuando no se controla adecuadamente la interoperabilidad entre sistemas?","opciones":["a) Se limita la capacidad de integrar procesos de negocio que dependen de múltiples aplicaciones","b) Se elimina automáticamente la redundancia de aplicaciones sin planificarlo","c) Se asegura la escalabilidad pero con mayores costos operativos","d) Se optimiza el portafolio de aplicaciones de manera involuntaria"],"correcta":"A"},{"texto":"¿Cuál de los siguientes elementos forma parte clave de la arquitectura de negocio?","opciones":["a) Hardware, servidores, cableado estructurado y centros de datos","b) Únicamente los diagramas de casos de uso del software","c) Procesos, funciones organizacionales, objetivos estratégicos y capacidades de negocio","d) Los manuales de usuario de los sistemas y aplicaciones"],"correcta":"A"},{"texto":"Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?","opciones":["a) El alto consumo energético de los centros de datos","b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes","c) La dificultad técnica para integrar la IA con sistemas legados","d) La necesidad de contratar personal altamente especializado"],"correcta":"A"},{"texto":"En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?","opciones":["a) Fase A (Visión de Arquitectura)","b) Fase B (Arquitectura de Negocio)","c) Fase Preliminar","d) Fase H (Gestión del Cambio)"],"correcta":"A"},{"texto":"¿Cuál es el propósito principal de la gestión de beneficios en TI?","opciones":["a) Asegurar que cada inversión en TI se entregue en la fecha y presupuesto planeados (Gestión de proyectos)","b) Controlar únicamente el presupuesto de hardware y software para reducir gastos","c) Reemplazar por completo a la gobernanza de TI en la toma de decisiones estratégicas","d) Asegurar que cada inversión en TI genere beneficios reales, medibles y alineados con el negocio"],"correcta":"A"},{"texto":"¿Qué describe principalmente un modelo tecnológico en el contexto de TOGAF?","opciones":["a) Las tendencias de moda en dispositivos electrónicos de consumo","b) La estructura, organización y relaciones de los componentes tecnológicos en un sistema","c) Únicamente la lista de componentes físicos como hardware y cables","d) El número de usuarios simultáneos que soporta una aplicación"],"correcta":"A"},{"texto":"¿Qué práctica alinea mejor el portafolio de aplicaciones con los objetivos estratégicos de una organización?","opciones":["a) Sustituir todas las aplicaciones heredadas por soluciones en la nube","b) Mapear cada aplicación con el proceso de negocio que soporta y el objetivo estratégico asociado","c) Implementar redundancia en todas las aplicaciones críticas para cubrir posibles fallos","d) Automatizar la comunicación entre aplicaciones mediante APIs sin importar su propósito"],"correcta":"A"},{"texto":"Según el estándar TOGAF, ¿cuáles son los cuatro dominios de arquitectura que conforman la base de una Arquitectura Empresarial?","opciones":["a) Estrategia, Infraestructura, Software y Hardware","b) Negocio, Datos, Aplicaciones y Tecnología","c) Procesos, Información, Servicios y Redes","d) Visión, Información, Sistemas y Seguridad"],"correcta":"A"}],"numeroGrupo":1}
+DECODIFICADO: Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿La Fase E (Oportunidades y Soluciones) de TOGAF prioriza los detalles técnicos sobre la viabilidad de la transición?
+                    [opciones] => Array
+                        (
+                            [0] => a) Verdadero
+                            [1] => b) Falso
+                        )
+
+                    [correcta] => A
+                )
+
+            [1] => Array
+                (
+                    [texto] => ¿Cuál es el propósito central de la Fase H (Gestión del Cambio de Arquitectura) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Mantener la adherencia estricta a los modelos arquitectónicos originales
+                            [1] => b) Gestionar excepciones a los estándares tecnológicos establecidos
+                            [2] => c) Verificar beneficios, monitorear el rendimiento y gestionar cambios en los supuestos arquitectónicos
+                            [3] => d) Crear nuevos roadmaps de capacidad tecnológica para los próximos 5 años
+                        )
+
+                    [correcta] => A
+                )
+
+            [2] => Array
+                (
+                    [texto] => ¿Cuál es el propósito principal de aplicar mejores prácticas en la gestión de servicios de TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reducir drásticamente el número de empleados en el área de TI
+                            [1] => b) Evitar el uso de marcos internacionales para simplificar la gestión
+                            [2] => c) Asegurar la calidad, eficiencia y valor en los servicios de TI entregados al negocio
+                            [3] => d) Incrementar únicamente la innovación tecnológica, sin importar los costos
+                        )
+
+                    [correcta] => A
+                )
+
+            [3] => Array
+                (
+                    [texto] => El modelo de información o de datos dentro de una organización sirve fundamentalmente para:
+                    [opciones] => Array
+                        (
+                            [0] => a) Describir los pasos secuenciales que sigue un cliente al comprar un producto
+                            [1] => b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores
+                            [2] => c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan
+                            [3] => d) Indicar la lista de recursos físicos y tecnológicos disponibles
+                        )
+
+                    [correcta] => A
+                )
+
+            [4] => Array
+                (
+                    [texto] => La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reduce significativamente los costos de fabricación de la tecnología
+                            [1] => b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos
+                            [2] => c) Aumenta la innovación en procesos de reciclaje electrónico
+                            [3] => d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales
+                        )
+
+                    [correcta] => A
+                )
+
+            [5] => Array
+                (
+                    [texto] => ¿Qué es ITIL y cuál es su propósito principal?
+                    [opciones] => Array
+                        (
+                            [0] => a) Una norma internacional que certifica la seguridad de la información (ISO 27001)
+                            [1] => b) Un software de monitoreo de redes utilizado en empresas digitales
+                            [2] => c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI
+                            [3] => d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)
+                        )
+
+                    [correcta] => A
+                )
+
+            [6] => Array
+                (
+                    [texto] => El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?
+                    [opciones] => Array
+                        (
+                            [0] => a) Invertir en energías limpias para las instalaciones de la empresa
+                            [1] => b) Tener una política de puertas abiertas para la dirección interna
+                            [2] => c) Ser transparentes con las finanzas de la empresa ante los accionistas
+                            [3] => d) Implementar programas de alfabetización digital en comunidades con recursos limitados
+                        )
+
+                    [correcta] => A
+                )
+
+            [7] => Array
+                (
+                    [texto] => En la gestión del portafolio de aplicaciones, ¿qué riesgo aparece cuando no se controla adecuadamente la interoperabilidad entre sistemas?
+                    [opciones] => Array
+                        (
+                            [0] => a) Se limita la capacidad de integrar procesos de negocio que dependen de múltiples aplicaciones
+                            [1] => b) Se elimina automáticamente la redundancia de aplicaciones sin planificarlo
+                            [2] => c) Se asegura la escalabilidad pero con mayores costos operativos
+                            [3] => d) Se optimiza el portafolio de aplicaciones de manera involuntaria
+                        )
+
+                    [correcta] => A
+                )
+
+            [8] => Array
+                (
+                    [texto] => ¿Cuál de los siguientes elementos forma parte clave de la arquitectura de negocio?
+                    [opciones] => Array
+                        (
+                            [0] => a) Hardware, servidores, cableado estructurado y centros de datos
+                            [1] => b) Únicamente los diagramas de casos de uso del software
+                            [2] => c) Procesos, funciones organizacionales, objetivos estratégicos y capacidades de negocio
+                            [3] => d) Los manuales de usuario de los sistemas y aplicaciones
+                        )
+
+                    [correcta] => A
+                )
+
+            [9] => Array
+                (
+                    [texto] => Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?
+                    [opciones] => Array
+                        (
+                            [0] => a) El alto consumo energético de los centros de datos
+                            [1] => b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes
+                            [2] => c) La dificultad técnica para integrar la IA con sistemas legados
+                            [3] => d) La necesidad de contratar personal altamente especializado
+                        )
+
+                    [correcta] => A
+                )
+
+            [10] => Array
+                (
+                    [texto] => En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?
+                    [opciones] => Array
+                        (
+                            [0] => a) Fase A (Visión de Arquitectura)
+                            [1] => b) Fase B (Arquitectura de Negocio)
+                            [2] => c) Fase Preliminar
+                            [3] => d) Fase H (Gestión del Cambio)
+                        )
+
+                    [correcta] => A
+                )
+
+            [11] => Array
+                (
+                    [texto] => ¿Cuál es el propósito principal de la gestión de beneficios en TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Asegurar que cada inversión en TI se entregue en la fecha y presupuesto planeados (Gestión de proyectos)
+                            [1] => b) Controlar únicamente el presupuesto de hardware y software para reducir gastos
+                            [2] => c) Reemplazar por completo a la gobernanza de TI en la toma de decisiones estratégicas
+                            [3] => d) Asegurar que cada inversión en TI genere beneficios reales, medibles y alineados con el negocio
+                        )
+
+                    [correcta] => A
+                )
+
+            [12] => Array
+                (
+                    [texto] => ¿Qué describe principalmente un modelo tecnológico en el contexto de TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Las tendencias de moda en dispositivos electrónicos de consumo
+                            [1] => b) La estructura, organización y relaciones de los componentes tecnológicos en un sistema
+                            [2] => c) Únicamente la lista de componentes físicos como hardware y cables
+                            [3] => d) El número de usuarios simultáneos que soporta una aplicación
+                        )
+
+                    [correcta] => A
+                )
+
+            [13] => Array
+                (
+                    [texto] => ¿Qué práctica alinea mejor el portafolio de aplicaciones con los objetivos estratégicos de una organización?
+                    [opciones] => Array
+                        (
+                            [0] => a) Sustituir todas las aplicaciones heredadas por soluciones en la nube
+                            [1] => b) Mapear cada aplicación con el proceso de negocio que soporta y el objetivo estratégico asociado
+                            [2] => c) Implementar redundancia en todas las aplicaciones críticas para cubrir posibles fallos
+                            [3] => d) Automatizar la comunicación entre aplicaciones mediante APIs sin importar su propósito
+                        )
+
+                    [correcta] => A
+                )
+
+            [14] => Array
+                (
+                    [texto] => Según el estándar TOGAF, ¿cuáles son los cuatro dominios de arquitectura que conforman la base de una Arquitectura Empresarial?
+                    [opciones] => Array
+                        (
+                            [0] => a) Estrategia, Infraestructura, Software y Hardware
+                            [1] => b) Negocio, Datos, Aplicaciones y Tecnología
+                            [2] => c) Procesos, Información, Servicios y Redes
+                            [3] => d) Visión, Información, Sistemas y Seguridad
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+)
+
+
+=== 2026-03-20 04:09:19 ===
+INPUT: {"grupo":[{"texto":"¿Cuál es el objetivo principal del modelo CMMI-SVC (CMMI for Services)?","opciones":["a) Certificar la calidad del hardware utilizado en los centros de datos","b) Ayudar a las organizaciones a mejorar el rendimiento de sus procesos de prestación de servicios","c) Definir un lenguaje de programación estándar para aplicaciones de servicios","d) Establecer los requisitos legales para prestar servicios en la nube"],"correcta":"A"},{"texto":"El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?","opciones":["a) Invertir en energías limpias para las instalaciones de la empresa","b) Tener una política de puertas abiertas para la dirección interna","c) Ser transparentes con las finanzas de la empresa ante los accionistas","d) Implementar programas de alfabetización digital en comunidades con recursos limitados"],"correcta":"A"},{"texto":"¿Cuál es el objetivo principal de un Modelo de Procesos de Negocio dentro de la arquitectura de negocio?","opciones":["a) Documentar únicamente los sistemas de información de la organización","b) Definir exclusivamente la estructura jerárquica y los puestos de la empresa","c) Representar de manera gráfica y estructurada cómo la organización crea valor para sus clientes","d) Describir únicamente las métricas financieras y los indicadores clave de rendimiento"],"correcta":"A"},{"texto":"El modelo de información o de datos dentro de una organización sirve fundamentalmente para:","opciones":["a) Describir los pasos secuenciales que sigue un cliente al comprar un producto","b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores","c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan","d) Indicar la lista de recursos físicos y tecnológicos disponibles"],"correcta":"A"},{"texto":"Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?","opciones":["a) El alto consumo energético de los centros de datos","b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes","c) La dificultad técnica para integrar la IA con sistemas legados","d) La necesidad de contratar personal altamente especializado"],"correcta":"A"},{"texto":"¿Qué es ITIL y cuál es su propósito principal?","opciones":["a) Una norma internacional que certifica la seguridad de la información (ISO 27001)","b) Un software de monitoreo de redes utilizado en empresas digitales","c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI","d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)"],"correcta":"A"},{"texto":"En COBIT 2019, el dominio BAI (Construir, Adquirir e Implementar) se centra principalmente en:","opciones":["a) Definir la estrategia de TI y la alineación con el negocio","b) Evaluar y monitorear el desempeño global y la conformidad de TI","c) Garantizar el cumplimiento de leyes y políticas internas (Alineado con MEA)","d) Construir, adquirir e implementar soluciones tecnológicas y sus cambios"],"correcta":"A"},{"texto":"En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?","opciones":["a) Fase A (Visión de Arquitectura)","b) Fase B (Arquitectura de Negocio)","c) Fase Preliminar","d) Fase H (Gestión del Cambio)"],"correcta":"A"},{"texto":"¿Cuál es la solución más sostenible a largo plazo para el problema global de los residuos electrónicos (e-waste)?","opciones":["a) Incinerar los componentes para generar energía aprovechable","b) Exportar la basura electrónica a países con menos regulaciones ambientales","c) Reciclar materiales valiosos de vertederos tecnológicos","d) Diseñar productos modulares y reparables que permitan reemplazar partes, no todo el dispositivo"],"correcta":"A"},{"texto":"La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?","opciones":["a) Reduce significativamente los costos de fabricación de la tecnología","b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos","c) Aumenta la innovación en procesos de reciclaje electrónico","d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales"],"correcta":"A"},{"texto":"¿La Arquitectura de Aplicaciones es considerada una subarquitectura de la Arquitectura de Sistemas de Información (ISA)?","opciones":["a) Verdadero","b) Falso"],"correcta":"A"},{"texto":"¿Cuál es el objetivo principal de la Arquitectura de Sistemas de Información (ISA) en TOGAF?","opciones":["a) Optimizar exclusivamente el rendimiento técnico de los servidores","b) Garantizar la seguridad perimetral de la información","c) Alinear la estructura de componentes de datos y aplicaciones con las necesidades del negocio","d) Reducir los costos de operación tecnológica por debajo del promedio del mercado"],"correcta":"A"},{"texto":"¿Cuál de los siguientes elementos forma parte clave de la arquitectura de negocio?","opciones":["a) Hardware, servidores, cableado estructurado y centros de datos","b) Únicamente los diagramas de casos de uso del software","c) Procesos, funciones organizacionales, objetivos estratégicos y capacidades de negocio","d) Los manuales de usuario de los sistemas y aplicaciones"],"correcta":"A"},{"texto":"¿Cuál es la finalidad principal de utilizar modelos clave de la organización (como modelos de negocio, datos y procesos) al diseñar sistemas informáticos?","opciones":["a) Crear sistemas complejos sin considerar los procesos reales de la empresa","b) Mostrar cómo funciona la organización y lograr que la tecnología se adapte a sus necesidades, no al revés","c) Elaborar únicamente la documentación técnica de la parte tecnológica","d) Reemplazar gradualmente al personal administrativo con programas informáticos"],"correcta":"A"},{"texto":"¿Cuál es la principal diferencia entre los entregables (deliverables) y los artefactos (artifacts) en TOGAF?","opciones":["a) Los entregables son documentos formales revisados contractualmente; los artefactos son componentes de estos entregables","b) Los entregables son diagramas técnicos; los artefactos son resúmenes ejecutivos","c) No existe diferencia; son términos intercambiables","d) Los entregables son para el equipo técnico; los artefactos son para la dirección"],"correcta":"A"}],"numeroGrupo":1}
+DECODIFICADO: Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal del modelo CMMI-SVC (CMMI for Services)?
+                    [opciones] => Array
+                        (
+                            [0] => a) Certificar la calidad del hardware utilizado en los centros de datos
+                            [1] => b) Ayudar a las organizaciones a mejorar el rendimiento de sus procesos de prestación de servicios
+                            [2] => c) Definir un lenguaje de programación estándar para aplicaciones de servicios
+                            [3] => d) Establecer los requisitos legales para prestar servicios en la nube
+                        )
+
+                    [correcta] => A
+                )
+
+            [1] => Array
+                (
+                    [texto] => El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?
+                    [opciones] => Array
+                        (
+                            [0] => a) Invertir en energías limpias para las instalaciones de la empresa
+                            [1] => b) Tener una política de puertas abiertas para la dirección interna
+                            [2] => c) Ser transparentes con las finanzas de la empresa ante los accionistas
+                            [3] => d) Implementar programas de alfabetización digital en comunidades con recursos limitados
+                        )
+
+                    [correcta] => A
+                )
+
+            [2] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal de un Modelo de Procesos de Negocio dentro de la arquitectura de negocio?
+                    [opciones] => Array
+                        (
+                            [0] => a) Documentar únicamente los sistemas de información de la organización
+                            [1] => b) Definir exclusivamente la estructura jerárquica y los puestos de la empresa
+                            [2] => c) Representar de manera gráfica y estructurada cómo la organización crea valor para sus clientes
+                            [3] => d) Describir únicamente las métricas financieras y los indicadores clave de rendimiento
+                        )
+
+                    [correcta] => A
+                )
+
+            [3] => Array
+                (
+                    [texto] => El modelo de información o de datos dentro de una organización sirve fundamentalmente para:
+                    [opciones] => Array
+                        (
+                            [0] => a) Describir los pasos secuenciales que sigue un cliente al comprar un producto
+                            [1] => b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores
+                            [2] => c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan
+                            [3] => d) Indicar la lista de recursos físicos y tecnológicos disponibles
+                        )
+
+                    [correcta] => A
+                )
+
+            [4] => Array
+                (
+                    [texto] => Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?
+                    [opciones] => Array
+                        (
+                            [0] => a) El alto consumo energético de los centros de datos
+                            [1] => b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes
+                            [2] => c) La dificultad técnica para integrar la IA con sistemas legados
+                            [3] => d) La necesidad de contratar personal altamente especializado
+                        )
+
+                    [correcta] => A
+                )
+
+            [5] => Array
+                (
+                    [texto] => ¿Qué es ITIL y cuál es su propósito principal?
+                    [opciones] => Array
+                        (
+                            [0] => a) Una norma internacional que certifica la seguridad de la información (ISO 27001)
+                            [1] => b) Un software de monitoreo de redes utilizado en empresas digitales
+                            [2] => c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI
+                            [3] => d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)
+                        )
+
+                    [correcta] => A
+                )
+
+            [6] => Array
+                (
+                    [texto] => En COBIT 2019, el dominio BAI (Construir, Adquirir e Implementar) se centra principalmente en:
+                    [opciones] => Array
+                        (
+                            [0] => a) Definir la estrategia de TI y la alineación con el negocio
+                            [1] => b) Evaluar y monitorear el desempeño global y la conformidad de TI
+                            [2] => c) Garantizar el cumplimiento de leyes y políticas internas (Alineado con MEA)
+                            [3] => d) Construir, adquirir e implementar soluciones tecnológicas y sus cambios
+                        )
+
+                    [correcta] => A
+                )
+
+            [7] => Array
+                (
+                    [texto] => En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?
+                    [opciones] => Array
+                        (
+                            [0] => a) Fase A (Visión de Arquitectura)
+                            [1] => b) Fase B (Arquitectura de Negocio)
+                            [2] => c) Fase Preliminar
+                            [3] => d) Fase H (Gestión del Cambio)
+                        )
+
+                    [correcta] => A
+                )
+
+            [8] => Array
+                (
+                    [texto] => ¿Cuál es la solución más sostenible a largo plazo para el problema global de los residuos electrónicos (e-waste)?
+                    [opciones] => Array
+                        (
+                            [0] => a) Incinerar los componentes para generar energía aprovechable
+                            [1] => b) Exportar la basura electrónica a países con menos regulaciones ambientales
+                            [2] => c) Reciclar materiales valiosos de vertederos tecnológicos
+                            [3] => d) Diseñar productos modulares y reparables que permitan reemplazar partes, no todo el dispositivo
+                        )
+
+                    [correcta] => A
+                )
+
+            [9] => Array
+                (
+                    [texto] => La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reduce significativamente los costos de fabricación de la tecnología
+                            [1] => b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos
+                            [2] => c) Aumenta la innovación en procesos de reciclaje electrónico
+                            [3] => d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales
+                        )
+
+                    [correcta] => A
+                )
+
+            [10] => Array
+                (
+                    [texto] => ¿La Arquitectura de Aplicaciones es considerada una subarquitectura de la Arquitectura de Sistemas de Información (ISA)?
+                    [opciones] => Array
+                        (
+                            [0] => a) Verdadero
+                            [1] => b) Falso
+                        )
+
+                    [correcta] => A
+                )
+
+            [11] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal de la Arquitectura de Sistemas de Información (ISA) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Optimizar exclusivamente el rendimiento técnico de los servidores
+                            [1] => b) Garantizar la seguridad perimetral de la información
+                            [2] => c) Alinear la estructura de componentes de datos y aplicaciones con las necesidades del negocio
+                            [3] => d) Reducir los costos de operación tecnológica por debajo del promedio del mercado
+                        )
+
+                    [correcta] => A
+                )
+
+            [12] => Array
+                (
+                    [texto] => ¿Cuál de los siguientes elementos forma parte clave de la arquitectura de negocio?
+                    [opciones] => Array
+                        (
+                            [0] => a) Hardware, servidores, cableado estructurado y centros de datos
+                            [1] => b) Únicamente los diagramas de casos de uso del software
+                            [2] => c) Procesos, funciones organizacionales, objetivos estratégicos y capacidades de negocio
+                            [3] => d) Los manuales de usuario de los sistemas y aplicaciones
+                        )
+
+                    [correcta] => A
+                )
+
+            [13] => Array
+                (
+                    [texto] => ¿Cuál es la finalidad principal de utilizar modelos clave de la organización (como modelos de negocio, datos y procesos) al diseñar sistemas informáticos?
+                    [opciones] => Array
+                        (
+                            [0] => a) Crear sistemas complejos sin considerar los procesos reales de la empresa
+                            [1] => b) Mostrar cómo funciona la organización y lograr que la tecnología se adapte a sus necesidades, no al revés
+                            [2] => c) Elaborar únicamente la documentación técnica de la parte tecnológica
+                            [3] => d) Reemplazar gradualmente al personal administrativo con programas informáticos
+                        )
+
+                    [correcta] => A
+                )
+
+            [14] => Array
+                (
+                    [texto] => ¿Cuál es la principal diferencia entre los entregables (deliverables) y los artefactos (artifacts) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Los entregables son documentos formales revisados contractualmente; los artefactos son componentes de estos entregables
+                            [1] => b) Los entregables son diagramas técnicos; los artefactos son resúmenes ejecutivos
+                            [2] => c) No existe diferencia; son términos intercambiables
+                            [3] => d) Los entregables son para el equipo técnico; los artefactos son para la dirección
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+)
+
+
+=== 2026-03-20 04:11:00 ===
+INPUT: {"grupo":[{"texto":"¿Cuál es el objetivo principal del modelo CMMI-SVC (CMMI for Services)?","opciones":["a) Certificar la calidad del hardware utilizado en los centros de datos","b) Ayudar a las organizaciones a mejorar el rendimiento de sus procesos de prestación de servicios","c) Definir un lenguaje de programación estándar para aplicaciones de servicios","d) Establecer los requisitos legales para prestar servicios en la nube"],"correcta":"A"},{"texto":"El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?","opciones":["a) Invertir en energías limpias para las instalaciones de la empresa","b) Tener una política de puertas abiertas para la dirección interna","c) Ser transparentes con las finanzas de la empresa ante los accionistas","d) Implementar programas de alfabetización digital en comunidades con recursos limitados"],"correcta":"A"},{"texto":"¿Cuál es el objetivo principal de un Modelo de Procesos de Negocio dentro de la arquitectura de negocio?","opciones":["a) Documentar únicamente los sistemas de información de la organización","b) Definir exclusivamente la estructura jerárquica y los puestos de la empresa","c) Representar de manera gráfica y estructurada cómo la organización crea valor para sus clientes","d) Describir únicamente las métricas financieras y los indicadores clave de rendimiento"],"correcta":"A"},{"texto":"El modelo de información o de datos dentro de una organización sirve fundamentalmente para:","opciones":["a) Describir los pasos secuenciales que sigue un cliente al comprar un producto","b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores","c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan","d) Indicar la lista de recursos físicos y tecnológicos disponibles"],"correcta":"A"},{"texto":"Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?","opciones":["a) El alto consumo energético de los centros de datos","b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes","c) La dificultad técnica para integrar la IA con sistemas legados","d) La necesidad de contratar personal altamente especializado"],"correcta":"A"},{"texto":"¿Qué es ITIL y cuál es su propósito principal?","opciones":["a) Una norma internacional que certifica la seguridad de la información (ISO 27001)","b) Un software de monitoreo de redes utilizado en empresas digitales","c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI","d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)"],"correcta":"A"},{"texto":"En COBIT 2019, el dominio BAI (Construir, Adquirir e Implementar) se centra principalmente en:","opciones":["a) Definir la estrategia de TI y la alineación con el negocio","b) Evaluar y monitorear el desempeño global y la conformidad de TI","c) Garantizar el cumplimiento de leyes y políticas internas (Alineado con MEA)","d) Construir, adquirir e implementar soluciones tecnológicas y sus cambios"],"correcta":"A"},{"texto":"En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?","opciones":["a) Fase A (Visión de Arquitectura)","b) Fase B (Arquitectura de Negocio)","c) Fase Preliminar","d) Fase H (Gestión del Cambio)"],"correcta":"A"},{"texto":"¿Cuál es la solución más sostenible a largo plazo para el problema global de los residuos electrónicos (e-waste)?","opciones":["a) Incinerar los componentes para generar energía aprovechable","b) Exportar la basura electrónica a países con menos regulaciones ambientales","c) Reciclar materiales valiosos de vertederos tecnológicos","d) Diseñar productos modulares y reparables que permitan reemplazar partes, no todo el dispositivo"],"correcta":"A"},{"texto":"La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?","opciones":["a) Reduce significativamente los costos de fabricación de la tecnología","b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos","c) Aumenta la innovación en procesos de reciclaje electrónico","d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales"],"correcta":"A"},{"texto":"¿La Arquitectura de Aplicaciones es considerada una subarquitectura de la Arquitectura de Sistemas de Información (ISA)?","opciones":["a) Verdadero","b) Falso"],"correcta":"A"},{"texto":"¿Cuál es el objetivo principal de la Arquitectura de Sistemas de Información (ISA) en TOGAF?","opciones":["a) Optimizar exclusivamente el rendimiento técnico de los servidores","b) Garantizar la seguridad perimetral de la información","c) Alinear la estructura de componentes de datos y aplicaciones con las necesidades del negocio","d) Reducir los costos de operación tecnológica por debajo del promedio del mercado"],"correcta":"A"},{"texto":"¿Cuál de los siguientes elementos forma parte clave de la arquitectura de negocio?","opciones":["a) Hardware, servidores, cableado estructurado y centros de datos","b) Únicamente los diagramas de casos de uso del software","c) Procesos, funciones organizacionales, objetivos estratégicos y capacidades de negocio","d) Los manuales de usuario de los sistemas y aplicaciones"],"correcta":"A"},{"texto":"¿Cuál es la finalidad principal de utilizar modelos clave de la organización (como modelos de negocio, datos y procesos) al diseñar sistemas informáticos?","opciones":["a) Crear sistemas complejos sin considerar los procesos reales de la empresa","b) Mostrar cómo funciona la organización y lograr que la tecnología se adapte a sus necesidades, no al revés","c) Elaborar únicamente la documentación técnica de la parte tecnológica","d) Reemplazar gradualmente al personal administrativo con programas informáticos"],"correcta":"A"},{"texto":"¿Cuál es la principal diferencia entre los entregables (deliverables) y los artefactos (artifacts) en TOGAF?","opciones":["a) Los entregables son documentos formales revisados contractualmente; los artefactos son componentes de estos entregables","b) Los entregables son diagramas técnicos; los artefactos son resúmenes ejecutivos","c) No existe diferencia; son términos intercambiables","d) Los entregables son para el equipo técnico; los artefactos son para la dirección"],"correcta":"A"}],"numeroGrupo":1}
+DECODIFICADO: Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal del modelo CMMI-SVC (CMMI for Services)?
+                    [opciones] => Array
+                        (
+                            [0] => a) Certificar la calidad del hardware utilizado en los centros de datos
+                            [1] => b) Ayudar a las organizaciones a mejorar el rendimiento de sus procesos de prestación de servicios
+                            [2] => c) Definir un lenguaje de programación estándar para aplicaciones de servicios
+                            [3] => d) Establecer los requisitos legales para prestar servicios en la nube
+                        )
+
+                    [correcta] => A
+                )
+
+            [1] => Array
+                (
+                    [texto] => El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?
+                    [opciones] => Array
+                        (
+                            [0] => a) Invertir en energías limpias para las instalaciones de la empresa
+                            [1] => b) Tener una política de puertas abiertas para la dirección interna
+                            [2] => c) Ser transparentes con las finanzas de la empresa ante los accionistas
+                            [3] => d) Implementar programas de alfabetización digital en comunidades con recursos limitados
+                        )
+
+                    [correcta] => A
+                )
+
+            [2] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal de un Modelo de Procesos de Negocio dentro de la arquitectura de negocio?
+                    [opciones] => Array
+                        (
+                            [0] => a) Documentar únicamente los sistemas de información de la organización
+                            [1] => b) Definir exclusivamente la estructura jerárquica y los puestos de la empresa
+                            [2] => c) Representar de manera gráfica y estructurada cómo la organización crea valor para sus clientes
+                            [3] => d) Describir únicamente las métricas financieras y los indicadores clave de rendimiento
+                        )
+
+                    [correcta] => A
+                )
+
+            [3] => Array
+                (
+                    [texto] => El modelo de información o de datos dentro de una organización sirve fundamentalmente para:
+                    [opciones] => Array
+                        (
+                            [0] => a) Describir los pasos secuenciales que sigue un cliente al comprar un producto
+                            [1] => b) Mostrar la jerarquía jerárquica y las funciones de los trabajadores
+                            [2] => c) Representar los datos que maneja la organización, sus estructuras, relaciones y cómo se utilizan
+                            [3] => d) Indicar la lista de recursos físicos y tecnológicos disponibles
+                        )
+
+                    [correcta] => A
+                )
+
+            [4] => Array
+                (
+                    [texto] => Desde una perspectiva de gobernanza ética, ¿cuál es la principal preocupación asociada al uso de algoritmos de Inteligencia Artificial en la toma de decisiones?
+                    [opciones] => Array
+                        (
+                            [0] => a) El alto consumo energético de los centros de datos
+                            [1] => b) La opacidad de los algoritmos (caja negra) y el riesgo de perpetuar sesgos existentes
+                            [2] => c) La dificultad técnica para integrar la IA con sistemas legados
+                            [3] => d) La necesidad de contratar personal altamente especializado
+                        )
+
+                    [correcta] => A
+                )
+
+            [5] => Array
+                (
+                    [texto] => ¿Qué es ITIL y cuál es su propósito principal?
+                    [opciones] => Array
+                        (
+                            [0] => a) Una norma internacional que certifica la seguridad de la información (ISO 27001)
+                            [1] => b) Un software de monitoreo de redes utilizado en empresas digitales
+                            [2] => c) Un conjunto de publicaciones que documentan buenas prácticas para la gestión de servicios de TI
+                            [3] => d) Un modelo de madurez para evaluar procesos de desarrollo de software (CMMI)
+                        )
+
+                    [correcta] => A
+                )
+
+            [6] => Array
+                (
+                    [texto] => En COBIT 2019, el dominio BAI (Construir, Adquirir e Implementar) se centra principalmente en:
+                    [opciones] => Array
+                        (
+                            [0] => a) Definir la estrategia de TI y la alineación con el negocio
+                            [1] => b) Evaluar y monitorear el desempeño global y la conformidad de TI
+                            [2] => c) Garantizar el cumplimiento de leyes y políticas internas (Alineado con MEA)
+                            [3] => d) Construir, adquirir e implementar soluciones tecnológicas y sus cambios
+                        )
+
+                    [correcta] => A
+                )
+
+            [7] => Array
+                (
+                    [texto] => En el ADM de TOGAF, ¿qué fase se encarga de establecer el marco y los principios antes de desarrollar las arquitecturas específicas?
+                    [opciones] => Array
+                        (
+                            [0] => a) Fase A (Visión de Arquitectura)
+                            [1] => b) Fase B (Arquitectura de Negocio)
+                            [2] => c) Fase Preliminar
+                            [3] => d) Fase H (Gestión del Cambio)
+                        )
+
+                    [correcta] => A
+                )
+
+            [8] => Array
+                (
+                    [texto] => ¿Cuál es la solución más sostenible a largo plazo para el problema global de los residuos electrónicos (e-waste)?
+                    [opciones] => Array
+                        (
+                            [0] => a) Incinerar los componentes para generar energía aprovechable
+                            [1] => b) Exportar la basura electrónica a países con menos regulaciones ambientales
+                            [2] => c) Reciclar materiales valiosos de vertederos tecnológicos
+                            [3] => d) Diseñar productos modulares y reparables que permitan reemplazar partes, no todo el dispositivo
+                        )
+
+                    [correcta] => A
+                )
+
+            [9] => Array
+                (
+                    [texto] => La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reduce significativamente los costos de fabricación de la tecnología
+                            [1] => b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos
+                            [2] => c) Aumenta la innovación en procesos de reciclaje electrónico
+                            [3] => d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales
+                        )
+
+                    [correcta] => A
+                )
+
+            [10] => Array
+                (
+                    [texto] => ¿La Arquitectura de Aplicaciones es considerada una subarquitectura de la Arquitectura de Sistemas de Información (ISA)?
+                    [opciones] => Array
+                        (
+                            [0] => a) Verdadero
+                            [1] => b) Falso
+                        )
+
+                    [correcta] => A
+                )
+
+            [11] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal de la Arquitectura de Sistemas de Información (ISA) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Optimizar exclusivamente el rendimiento técnico de los servidores
+                            [1] => b) Garantizar la seguridad perimetral de la información
+                            [2] => c) Alinear la estructura de componentes de datos y aplicaciones con las necesidades del negocio
+                            [3] => d) Reducir los costos de operación tecnológica por debajo del promedio del mercado
+                        )
+
+                    [correcta] => A
+                )
+
+            [12] => Array
+                (
+                    [texto] => ¿Cuál de los siguientes elementos forma parte clave de la arquitectura de negocio?
+                    [opciones] => Array
+                        (
+                            [0] => a) Hardware, servidores, cableado estructurado y centros de datos
+                            [1] => b) Únicamente los diagramas de casos de uso del software
+                            [2] => c) Procesos, funciones organizacionales, objetivos estratégicos y capacidades de negocio
+                            [3] => d) Los manuales de usuario de los sistemas y aplicaciones
+                        )
+
+                    [correcta] => A
+                )
+
+            [13] => Array
+                (
+                    [texto] => ¿Cuál es la finalidad principal de utilizar modelos clave de la organización (como modelos de negocio, datos y procesos) al diseñar sistemas informáticos?
+                    [opciones] => Array
+                        (
+                            [0] => a) Crear sistemas complejos sin considerar los procesos reales de la empresa
+                            [1] => b) Mostrar cómo funciona la organización y lograr que la tecnología se adapte a sus necesidades, no al revés
+                            [2] => c) Elaborar únicamente la documentación técnica de la parte tecnológica
+                            [3] => d) Reemplazar gradualmente al personal administrativo con programas informáticos
+                        )
+
+                    [correcta] => A
+                )
+
+            [14] => Array
+                (
+                    [texto] => ¿Cuál es la principal diferencia entre los entregables (deliverables) y los artefactos (artifacts) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Los entregables son documentos formales revisados contractualmente; los artefactos son componentes de estos entregables
+                            [1] => b) Los entregables son diagramas técnicos; los artefactos son resúmenes ejecutivos
+                            [2] => c) No existe diferencia; son términos intercambiables
+                            [3] => d) Los entregables son para el equipo técnico; los artefactos son para la dirección
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+)
+
+
+=== 2026-03-20 04:15:55 ===
+INPUT: {"grupo":[{"texto":"La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?","opciones":["a) Reduce significativamente los costos de fabricación de la tecnología","b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos","c) Aumenta la innovación en procesos de reciclaje electrónico","d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales"],"correcta":"A"},{"texto":"¿Qué describe correctamente la norma ISO/IEC 20000?","opciones":["a) Un marco de buenas prácticas para la gestión de proyectos (similar a PMBOK)","b) Un estándar internacional certificable que especifica los requisitos para un Sistema de Gestión de Servicios de TI (SGSI)","c) Un modelo de madurez para evaluar la capacidad de los procesos de desarrollo de software","d) Un conjunto de publicaciones que detallan las mejores prácticas para la gestión de servicios de TI (como ITIL)"],"correcta":"A"},{"texto":"¿Cuál es el propósito principal de la gestión de beneficios en TI?","opciones":["a) Asegurar que cada inversión en TI se entregue en la fecha y presupuesto planeados (Gestión de proyectos)","b) Controlar únicamente el presupuesto de hardware y software para reducir gastos","c) Reemplazar por completo a la gobernanza de TI en la toma de decisiones estratégicas","d) Asegurar que cada inversión en TI genere beneficios reales, medibles y alineados con el negocio"],"correcta":"A"},{"texto":"Las mejores prácticas de servicio en TI (como ITIL) se caracterizan fundamentalmente por:","opciones":["a) Ser reglas obligatorias y estrictas que no se pueden adaptar al contexto","b) Sustituir completamente a la estrategia de negocio de la organización","c) Aplicarse solo en empresas grandes y multinacionales del sector tecnológico","d) Basarse en experiencias reales, probadas y documentadas a nivel internacional, siendo adaptables"],"correcta":"A"},{"texto":"¿Cuál es la principal diferencia entre ISO/IEC 38500 y COBIT?","opciones":["a) ISO 38500 es para empresas pequeñas; COBIT solo para multinacionales","b) ISO 38500 proporciona principios de gobernanza; COBIT incluye tanto gobernanza como un modelo detallado de gestión de TI","c) ISO 38500 es un estándar certificable; COBIT es únicamente un marco de buenas prácticas no certificable","d) No existe diferencia; son dos nombres para el mismo marco"],"correcta":"A"},{"texto":"Según el estándar TOGAF, ¿cuáles son los cuatro dominios de arquitectura que conforman la base de una Arquitectura Empresarial?","opciones":["a) Estrategia, Infraestructura, Software y Hardware","b) Negocio, Datos, Aplicaciones y Tecnología","c) Procesos, Información, Servicios y Redes","d) Visión, Información, Sistemas y Seguridad"],"correcta":"A"},{"texto":"¿Por qué la generación de valor es considerada el objetivo primordial de la gobernanza de TI?","opciones":["a) Porque el valor de TI se mide únicamente por el retorno de la inversión (ROI) de los proyectos","b) Porque la gobernanza de TI existe para asegurar que la tecnología contribuya a los objetivos del negocio y genere beneficios tangibles","c) Porque el valor de TI es más importante que la gestión de riesgos y el cumplimiento normativo","d) Porque el valor de TI es fácil de cuantificar en términos financieros para todos los accionistas"],"correcta":"A"},{"texto":"¿Cuál es la principal diferencia entre los entregables (deliverables) y los artefactos (artifacts) en TOGAF?","opciones":["a) Los entregables son documentos formales revisados contractualmente; los artefactos son componentes de estos entregables","b) Los entregables son diagramas técnicos; los artefactos son resúmenes ejecutivos","c) No existe diferencia; son términos intercambiables","d) Los entregables son para el equipo técnico; los artefactos son para la dirección"],"correcta":"A"},{"texto":"¿Cuál es el propósito central de la Fase H (Gestión del Cambio de Arquitectura) en TOGAF?","opciones":["a) Mantener la adherencia estricta a los modelos arquitectónicos originales","b) Gestionar excepciones a los estándares tecnológicos establecidos","c) Verificar beneficios, monitorear el rendimiento y gestionar cambios en los supuestos arquitectónicos","d) Crear nuevos roadmaps de capacidad tecnológica para los próximos 5 años"],"correcta":"A"},{"texto":"El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?","opciones":["a) Invertir en energías limpias para las instalaciones de la empresa","b) Tener una política de puertas abiertas para la dirección interna","c) Ser transparentes con las finanzas de la empresa ante los accionistas","d) Implementar programas de alfabetización digital en comunidades con recursos limitados"],"correcta":"A"},{"texto":"¿Cuál es el propósito principal de aplicar mejores prácticas en la gestión de servicios de TI?","opciones":["a) Reducir drásticamente el número de empleados en el área de TI","b) Evitar el uso de marcos internacionales para simplificar la gestión","c) Asegurar la calidad, eficiencia y valor en los servicios de TI entregados al negocio","d) Incrementar únicamente la innovación tecnológica, sin importar los costos"],"correcta":"A"},{"texto":"¿Cuál es el objetivo principal de la Arquitectura de Sistemas de Información (ISA) en TOGAF?","opciones":["a) Optimizar exclusivamente el rendimiento técnico de los servidores","b) Garantizar la seguridad perimetral de la información","c) Alinear la estructura de componentes de datos y aplicaciones con las necesidades del negocio","d) Reducir los costos de operación tecnológica por debajo del promedio del mercado"],"correcta":"A"},{"texto":"¿La Fase E (Oportunidades y Soluciones) de TOGAF prioriza los detalles técnicos sobre la viabilidad de la transición?","opciones":["a) Verdadero","b) Falso"],"correcta":"A"},{"texto":"Si bien todos los ODS son relevantes, ¿cuáles de los siguientes suelen tener un impacto más directo en las operaciones y la estrategia de las empresas privadas?","opciones":["a) ODS 1 (Fin de la pobreza), ODS 2 (Hambre cero), ODS 6 (Agua limpia)","b) ODS 7 (Energía asequible), ODS 13 (Acción por el clima), ODS 14 (Vida submarina)","c) ODS 8 (Trabajo decente), ODS 9 (Industria e innovación), ODS 12 (Producción responsables)","d) ODS 16 (Paz y justicia), ODS 17 (Alianzas), ODS 10 (Reducción desigualdades)"],"correcta":"A"},{"texto":"¿Qué describe principalmente un modelo tecnológico en el contexto de TOGAF?","opciones":["a) Las tendencias de moda en dispositivos electrónicos de consumo","b) La estructura, organización y relaciones de los componentes tecnológicos en un sistema","c) Únicamente la lista de componentes físicos como hardware y cables","d) El número de usuarios simultáneos que soporta una aplicación"],"correcta":"A"}],"numeroGrupo":1}
+DECODIFICADO: Array
+(
+    [grupo] => Array
+        (
+            [0] => Array
+                (
+                    [texto] => La obsolescencia programada genera un problema ético. ¿Qué impacto social directo tiene en la brecha digital?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reduce significativamente los costos de fabricación de la tecnología
+                            [1] => b) Dificulta el acceso a la tecnología actualizada para personas con bajos recursos
+                            [2] => c) Aumenta la innovación en procesos de reciclaje electrónico
+                            [3] => d) Mejora el acceso a dispositivos subvencionados por programas gubernamentales
+                        )
+
+                    [correcta] => A
+                )
+
+            [1] => Array
+                (
+                    [texto] => ¿Qué describe correctamente la norma ISO/IEC 20000?
+                    [opciones] => Array
+                        (
+                            [0] => a) Un marco de buenas prácticas para la gestión de proyectos (similar a PMBOK)
+                            [1] => b) Un estándar internacional certificable que especifica los requisitos para un Sistema de Gestión de Servicios de TI (SGSI)
+                            [2] => c) Un modelo de madurez para evaluar la capacidad de los procesos de desarrollo de software
+                            [3] => d) Un conjunto de publicaciones que detallan las mejores prácticas para la gestión de servicios de TI (como ITIL)
+                        )
+
+                    [correcta] => A
+                )
+
+            [2] => Array
+                (
+                    [texto] => ¿Cuál es el propósito principal de la gestión de beneficios en TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Asegurar que cada inversión en TI se entregue en la fecha y presupuesto planeados (Gestión de proyectos)
+                            [1] => b) Controlar únicamente el presupuesto de hardware y software para reducir gastos
+                            [2] => c) Reemplazar por completo a la gobernanza de TI en la toma de decisiones estratégicas
+                            [3] => d) Asegurar que cada inversión en TI genere beneficios reales, medibles y alineados con el negocio
+                        )
+
+                    [correcta] => A
+                )
+
+            [3] => Array
+                (
+                    [texto] => Las mejores prácticas de servicio en TI (como ITIL) se caracterizan fundamentalmente por:
+                    [opciones] => Array
+                        (
+                            [0] => a) Ser reglas obligatorias y estrictas que no se pueden adaptar al contexto
+                            [1] => b) Sustituir completamente a la estrategia de negocio de la organización
+                            [2] => c) Aplicarse solo en empresas grandes y multinacionales del sector tecnológico
+                            [3] => d) Basarse en experiencias reales, probadas y documentadas a nivel internacional, siendo adaptables
+                        )
+
+                    [correcta] => A
+                )
+
+            [4] => Array
+                (
+                    [texto] => ¿Cuál es la principal diferencia entre ISO/IEC 38500 y COBIT?
+                    [opciones] => Array
+                        (
+                            [0] => a) ISO 38500 es para empresas pequeñas; COBIT solo para multinacionales
+                            [1] => b) ISO 38500 proporciona principios de gobernanza; COBIT incluye tanto gobernanza como un modelo detallado de gestión de TI
+                            [2] => c) ISO 38500 es un estándar certificable; COBIT es únicamente un marco de buenas prácticas no certificable
+                            [3] => d) No existe diferencia; son dos nombres para el mismo marco
+                        )
+
+                    [correcta] => A
+                )
+
+            [5] => Array
+                (
+                    [texto] => Según el estándar TOGAF, ¿cuáles son los cuatro dominios de arquitectura que conforman la base de una Arquitectura Empresarial?
+                    [opciones] => Array
+                        (
+                            [0] => a) Estrategia, Infraestructura, Software y Hardware
+                            [1] => b) Negocio, Datos, Aplicaciones y Tecnología
+                            [2] => c) Procesos, Información, Servicios y Redes
+                            [3] => d) Visión, Información, Sistemas y Seguridad
+                        )
+
+                    [correcta] => A
+                )
+
+            [6] => Array
+                (
+                    [texto] => ¿Por qué la generación de valor es considerada el objetivo primordial de la gobernanza de TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Porque el valor de TI se mide únicamente por el retorno de la inversión (ROI) de los proyectos
+                            [1] => b) Porque la gobernanza de TI existe para asegurar que la tecnología contribuya a los objetivos del negocio y genere beneficios tangibles
+                            [2] => c) Porque el valor de TI es más importante que la gestión de riesgos y el cumplimiento normativo
+                            [3] => d) Porque el valor de TI es fácil de cuantificar en términos financieros para todos los accionistas
+                        )
+
+                    [correcta] => A
+                )
+
+            [7] => Array
+                (
+                    [texto] => ¿Cuál es la principal diferencia entre los entregables (deliverables) y los artefactos (artifacts) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Los entregables son documentos formales revisados contractualmente; los artefactos son componentes de estos entregables
+                            [1] => b) Los entregables son diagramas técnicos; los artefactos son resúmenes ejecutivos
+                            [2] => c) No existe diferencia; son términos intercambiables
+                            [3] => d) Los entregables son para el equipo técnico; los artefactos son para la dirección
+                        )
+
+                    [correcta] => A
+                )
+
+            [8] => Array
+                (
+                    [texto] => ¿Cuál es el propósito central de la Fase H (Gestión del Cambio de Arquitectura) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Mantener la adherencia estricta a los modelos arquitectónicos originales
+                            [1] => b) Gestionar excepciones a los estándares tecnológicos establecidos
+                            [2] => c) Verificar beneficios, monitorear el rendimiento y gestionar cambios en los supuestos arquitectónicos
+                            [3] => d) Crear nuevos roadmaps de capacidad tecnológica para los próximos 5 años
+                        )
+
+                    [correcta] => A
+                )
+
+            [9] => Array
+                (
+                    [texto] => El criterio Social de los criterios ASG (Ambientales, Sociales y de Gobernanza) va más allá de los empleados. ¿Qué acción demuestra un compromiso social externo genuino?
+                    [opciones] => Array
+                        (
+                            [0] => a) Invertir en energías limpias para las instalaciones de la empresa
+                            [1] => b) Tener una política de puertas abiertas para la dirección interna
+                            [2] => c) Ser transparentes con las finanzas de la empresa ante los accionistas
+                            [3] => d) Implementar programas de alfabetización digital en comunidades con recursos limitados
+                        )
+
+                    [correcta] => A
+                )
+
+            [10] => Array
+                (
+                    [texto] => ¿Cuál es el propósito principal de aplicar mejores prácticas en la gestión de servicios de TI?
+                    [opciones] => Array
+                        (
+                            [0] => a) Reducir drásticamente el número de empleados en el área de TI
+                            [1] => b) Evitar el uso de marcos internacionales para simplificar la gestión
+                            [2] => c) Asegurar la calidad, eficiencia y valor en los servicios de TI entregados al negocio
+                            [3] => d) Incrementar únicamente la innovación tecnológica, sin importar los costos
+                        )
+
+                    [correcta] => A
+                )
+
+            [11] => Array
+                (
+                    [texto] => ¿Cuál es el objetivo principal de la Arquitectura de Sistemas de Información (ISA) en TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Optimizar exclusivamente el rendimiento técnico de los servidores
+                            [1] => b) Garantizar la seguridad perimetral de la información
+                            [2] => c) Alinear la estructura de componentes de datos y aplicaciones con las necesidades del negocio
+                            [3] => d) Reducir los costos de operación tecnológica por debajo del promedio del mercado
+                        )
+
+                    [correcta] => A
+                )
+
+            [12] => Array
+                (
+                    [texto] => ¿La Fase E (Oportunidades y Soluciones) de TOGAF prioriza los detalles técnicos sobre la viabilidad de la transición?
+                    [opciones] => Array
+                        (
+                            [0] => a) Verdadero
+                            [1] => b) Falso
+                        )
+
+                    [correcta] => A
+                )
+
+            [13] => Array
+                (
+                    [texto] => Si bien todos los ODS son relevantes, ¿cuáles de los siguientes suelen tener un impacto más directo en las operaciones y la estrategia de las empresas privadas?
+                    [opciones] => Array
+                        (
+                            [0] => a) ODS 1 (Fin de la pobreza), ODS 2 (Hambre cero), ODS 6 (Agua limpia)
+                            [1] => b) ODS 7 (Energía asequible), ODS 13 (Acción por el clima), ODS 14 (Vida submarina)
+                            [2] => c) ODS 8 (Trabajo decente), ODS 9 (Industria e innovación), ODS 12 (Producción responsables)
+                            [3] => d) ODS 16 (Paz y justicia), ODS 17 (Alianzas), ODS 10 (Reducción desigualdades)
+                        )
+
+                    [correcta] => A
+                )
+
+            [14] => Array
+                (
+                    [texto] => ¿Qué describe principalmente un modelo tecnológico en el contexto de TOGAF?
+                    [opciones] => Array
+                        (
+                            [0] => a) Las tendencias de moda en dispositivos electrónicos de consumo
+                            [1] => b) La estructura, organización y relaciones de los componentes tecnológicos en un sistema
+                            [2] => c) Únicamente la lista de componentes físicos como hardware y cables
+                            [3] => d) El número de usuarios simultáneos que soporta una aplicación
+                        )
+
+                    [correcta] => A
+                )
+
+        )
+
+    [numeroGrupo] => 1
+)
+
+

@@ -1,3 +1,4 @@
+window.alert = function() {};
 // Variables globales
 let bancoPreguntas = [];
 let preguntasDisponibles = [];
@@ -16,7 +17,19 @@ const grupoActualContainer = document.getElementById('grupoActualContainer');
 const grupoActualCards = document.getElementById('grupoActualCards');
 const gruposList = document.getElementById('gruposList');
 
-// Función para procesar preguntas
+function getCantidadPorGrupo() {
+    const input = document.getElementById('cantidadPreguntas');
+    if (input) {
+        let valor = parseInt(input.value);
+        if (isNaN(valor)) return 15;
+        if (valor < 1) return 1;
+        if (valor > 100) return 100;
+        return valor;
+    }
+    return 15;
+}
+
+// Función para procesar preguntas (CORREGIDA)
 function procesarPreguntas() {
     const texto = preguntasInput.value.trim();
     
@@ -33,25 +46,12 @@ function procesarPreguntas() {
         const linea = lineas[i].trim();
         
         if (linea === '') continue;
-        
-        if (linea.includes('Tema:')) {
-            continue;
-        }
+        if (linea.includes('Tema:')) continue;
         
         if (linea.match(/^\d+[\.\)]/)) {
             if (preguntaActual && preguntaActual.opciones.length > 0) {
-                for (let j = i - 1; j < lineas.length && j <= i + 5; j++) {
-                    if (j >= 0 && lineas[j] && lineas[j].toLowerCase().includes('respuesta correcta:')) {
-                        const match = lineas[j].match(/[a-d]/i);
-                        if (match) {
-                            preguntaActual.correcta = match[0].toUpperCase();
-                        }
-                        break;
-                    }
-                }
                 preguntasProcesadas.push(preguntaActual);
             }
-            
             preguntaActual = {
                 texto: linea.replace(/^\d+[\.\)]\s*/, ''),
                 opciones: [],
@@ -65,9 +65,15 @@ function procesarPreguntas() {
         }
         else if (linea.toLowerCase().includes('respuesta correcta:')) {
             if (preguntaActual) {
-                const match = linea.match(/[a-d]/i);
-                if (match) {
-                    preguntaActual.correcta = match[0].toUpperCase();
+                // CORREGIDO: Buscar la letra después de los dos puntos
+                const partes = linea.split(':');
+                if (partes.length > 1) {
+                    const textoRespuesta = partes[1].trim();
+                    const match = textoRespuesta.match(/[a-d]/i);
+                    if (match) {
+                        preguntaActual.correcta = match[0].toUpperCase();
+                        alert("✅ Respuesta capturada: " + preguntaActual.correcta);
+                    }
                 }
             }
         }
@@ -79,15 +85,6 @@ function procesarPreguntas() {
     }
     
     if (preguntaActual && preguntaActual.opciones.length > 0) {
-        for (let j = lineas.length - 1; j >= lineas.length - 5 && j >= 0; j--) {
-            if (lineas[j] && lineas[j].toLowerCase().includes('respuesta correcta:')) {
-                const match = lineas[j].match(/[a-d]/i);
-                if (match) {
-                    preguntaActual.correcta = match[0].toUpperCase();
-                }
-                break;
-            }
-        }
         preguntasProcesadas.push(preguntaActual);
     }
     
@@ -108,7 +105,7 @@ function procesarPreguntas() {
     mostrarExito(`✅ Se procesaron ${preguntasValidas.length} preguntas correctamente.`);
 }
 
-// Función para generar PDF de un grupo específico
+// Función para generar PDF
 function generarPDFGrupo(numeroGrupo) {
     if (gruposCompletados.length === 0 || numeroGrupo < 0 || numeroGrupo >= gruposCompletados.length) {
         mostrarError('Grupo no válido para generar PDF.');
@@ -116,111 +113,42 @@ function generarPDFGrupo(numeroGrupo) {
     }
 
     const grupoSeleccionado = gruposCompletados[numeroGrupo];
+    const tipoExamen = document.getElementById('tipoExamen').value;
+    const carrera = document.getElementById('carrera').value;
+    const cantidadPreguntas = getCantidadPorGrupo();
     
-    try {
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF();
-        
-        // Título - CORREGIDO: eliminados caracteres especiales
-        doc.setFontSize(22);
-        doc.setTextColor(0, 51, 102);
-        doc.text(`GRUPO DE PREGUNTAS #${numeroGrupo + 1}`, 105, 20, { align: 'center' });
-        
-        // Subtítulo
-        doc.setFontSize(12);
-        doc.setTextColor(100, 100, 100);
-        const fecha = new Date().toLocaleDateString('es-ES', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-        doc.text(`Generado el: ${fecha}`, 105, 30, { align: 'center' });
-        
-        // Línea separadora
-        doc.setDrawColor(200, 200, 200);
-        doc.line(20, 35, 190, 35);
-        
-        let yPos = 45;
-        let preguntaCount = 1;
-        
-        // Recorrer las 15 preguntas del grupo
-        grupoSeleccionado.forEach((pregunta) => {
-            // Verificar si necesitamos nueva página
-            if (yPos > 250) {
-                doc.addPage();
-                yPos = 20;
-                
-                // Encabezado en nuevas páginas
-                doc.setFontSize(16);
-                doc.setTextColor(0, 51, 102);
-                doc.text(`Grupo #${numeroGrupo + 1} (continuación)`, 105, 15, { align: 'center' });
-                yPos = 25;
-            }
-            
-            // Número de pregunta con fondo
-            doc.setFillColor(240, 240, 255);
-            doc.rect(15, yPos - 4, 180, 8, 'F');
-            
-            doc.setFontSize(12);
-            doc.setTextColor(0, 51, 102);
-            doc.setFont(undefined, 'bold');
-            doc.text(`PREGUNTA ${preguntaCount}:`, 20, yPos);
-            yPos += 8;
-            
-            // Texto de la pregunta
-            doc.setFontSize(11);
-            doc.setTextColor(0, 0, 0);
-            doc.setFont(undefined, 'normal');
-            
-            const lineasPregunta = doc.splitTextToSize(pregunta.texto, 170);
-            doc.text(lineasPregunta, 20, yPos);
-            yPos += (lineasPregunta.length * 6) + 2;
-            
-            // Opciones
-            doc.setFontSize(10);
-            doc.setTextColor(64, 64, 64);
-            pregunta.opciones.forEach((opcion) => {
-                doc.text(opcion, 25, yPos);
-                yPos += 6;
-            });
-            
-            // Respuesta correcta destacada
-            doc.setFillColor(232, 245, 233);
-            doc.rect(15, yPos - 2, 180, 8, 'F');
-            
-            doc.setFontSize(11);
-            doc.setTextColor(46, 125, 50);
-            doc.setFont(undefined, 'bold');
-            doc.text(`✓ RESPUESTA CORRECTA: ${pregunta.correcta}`, 20, yPos);
-            yPos += 10;
-            
-            // Línea separadora entre preguntas
-            doc.setDrawColor(220, 220, 220);
-            doc.line(20, yPos - 5, 190, yPos - 5);
-            yPos += 2;
-            
-            preguntaCount++;
-        });
-        
-        // Pie de página
-        const totalPaginas = doc.internal.getNumberOfPages();
-        for (let i = 1; i <= totalPaginas; i++) {
-            doc.setPage(i);
-            doc.setFontSize(8);
-            doc.setTextColor(150, 150, 150);
-            doc.text(`Página ${i} de ${totalPaginas}`, 180, 285);
-        }
-        
-        // Guardar el PDF
-        doc.save(`grupo_${numeroGrupo + 1}_preguntas.pdf`);
+    mostrarExito('⏳ Generando PDF...');
+    
+    fetch('generar_pdf.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            grupo: grupoSeleccionado,
+            numeroGrupo: numeroGrupo + 1,
+            tipoExamen: tipoExamen,
+            carrera: carrera,
+            cantidadPreguntas: cantidadPreguntas
+        })
+    })
+    .then(response => {
+        if (!response.ok) throw new Error('Error en el servidor');
+        return response.blob();
+    })
+    .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `grupo_${numeroGrupo + 1}_preguntas.pdf`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
         mostrarExito(`✅ PDF del Grupo #${numeroGrupo + 1} generado correctamente.`);
-        
-    } catch (error) {
-        console.error('Error al generar PDF:', error);
+    })
+    .catch(error => {
+        console.error('Error:', error);
         mostrarError('Error al generar el PDF. Verifica la consola.');
-    }
+    });
 }
 
 // Función para limpiar todo
@@ -243,15 +171,17 @@ function generarNuevoGrupo() {
         return;
     }
 
-    if (preguntasDisponibles.length < 15) {
-        mostrarError(`⚠️ No hay suficientes preguntas (${preguntasDisponibles.length}/15). Reinicia el banco.`);
+    const cantidadPorGrupo = getCantidadPorGrupo();
+    
+    if (preguntasDisponibles.length < cantidadPorGrupo) {
+        mostrarError(`⚠️ No hay suficientes preguntas (${preguntasDisponibles.length}/${cantidadPorGrupo}). Reinicia el banco.`);
         return;
     }
 
     const grupoActual = [];
     const copiaDisponibles = [...preguntasDisponibles];
     
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < cantidadPorGrupo; i++) {
         const indiceAleatorio = Math.floor(Math.random() * copiaDisponibles.length);
         grupoActual.push(copiaDisponibles[indiceAleatorio]);
         copiaDisponibles.splice(indiceAleatorio, 1);
@@ -290,7 +220,8 @@ function mostrarGrupoActual(grupo) {
 
 // Función para actualizar estadísticas
 function actualizarEstadisticas() {
-    const totalGrupos = Math.floor(bancoPreguntas.length / 15);
+    const cantidadPorGrupo = getCantidadPorGrupo();
+    const totalGrupos = Math.floor(bancoPreguntas.length / cantidadPorGrupo);
     const gruposRestantes = totalGrupos - gruposCompletados.length;
     
     totalBanco.textContent = bancoPreguntas.length;
@@ -301,10 +232,10 @@ function actualizarEstadisticas() {
     const progreso = totalGrupos > 0 ? (gruposCompletados.length / totalGrupos) * 100 : 0;
     progressBar.style.width = `${progreso}%`;
     
-    generarBtn.disabled = preguntasDisponibles.length < 15;
+    generarBtn.disabled = preguntasDisponibles.length < cantidadPorGrupo;
 }
 
-// Función para actualizar historial con botones de PDF
+// Función para actualizar historial
 function actualizarHistorial() {
     let historialHtml = '';
     
@@ -325,7 +256,7 @@ function actualizarHistorial() {
                 <div class="group-item-header" onclick="toggleGrupo(${index})">
                     <span>📋 Grupo #${index + 1}</span>
                     <div style="display: flex; gap: 10px;">
-                        <span class="badge">15 preguntas</span>
+                        <span class="badge">${grupo.length} preguntas</span>
                         <button class="pdf-btn" onclick="event.stopPropagation(); generarPDFGrupo(${index})" style="background: #dc3545; padding: 3px 10px; font-size: 12px;">
                             📄 PDF
                         </button>
@@ -341,7 +272,6 @@ function actualizarHistorial() {
     gruposList.innerHTML = historialHtml || '<p style="color: #999; text-align: center;">Aún no hay grupos generados</p>';
 }
 
-// Función para toggle grupo
 function toggleGrupo(index) {
     const elemento = document.getElementById(`grupo-${index}`);
     if (elemento) {
@@ -349,7 +279,6 @@ function toggleGrupo(index) {
     }
 }
 
-// Función para reiniciar grupos
 function reiniciarGrupos() {
     if (bancoPreguntas.length === 0) {
         mostrarError('No hay preguntas en el banco');
@@ -367,21 +296,17 @@ function reiniciarGrupos() {
     }
 }
 
-// Función para actualizar UI
 function actualizarUI() {
     statsCard.style.display = 'block';
     actualizarEstadisticas();
 }
 
-// Funciones para mostrar mensajes
 function mostrarError(mensaje) {
     const errorDiv = document.createElement('div');
     errorDiv.className = 'error-message';
     errorDiv.textContent = mensaje;
-    
     const existingError = document.querySelector('.error-message');
     if (existingError) existingError.remove();
-    
     document.querySelector('.card').appendChild(errorDiv);
     setTimeout(() => errorDiv.remove(), 3000);
 }
@@ -390,15 +315,12 @@ function mostrarExito(mensaje) {
     const successDiv = document.createElement('div');
     successDiv.className = 'success-message';
     successDiv.textContent = mensaje;
-    
     const existingSuccess = document.querySelector('.success-message');
     if (existingSuccess) existingSuccess.remove();
-    
     document.querySelector('.card').appendChild(successDiv);
     setTimeout(() => successDiv.remove(), 3000);
 }
 
-// Hacer funciones globales
 window.procesarPreguntas = procesarPreguntas;
 window.limpiarTodo = limpiarTodo;
 window.generarNuevoGrupo = generarNuevoGrupo;
